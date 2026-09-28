@@ -9,20 +9,26 @@
 ---
 
 ## Overview
-This repository contains the workflow and computational pipeline for analyzing DNA sequences using Python and **BioPython**. The primary focus of this module is the calculation and interpretation of **GC Content** in nucleotide sequences.
+This repository contains an end-to-end computational pipeline for analyzing DNA sequences using Python and **BioPython**. The analysis includes nucleotide composition profiling (**GC and AT Content**), sequence length measurement, **Reverse Complement** generation, and **Protein Translation**.
 
-## Key Files
-* `Git&Github_Final(LAB).ipynb`: Jupyter Notebook containing the executable code and results.
-* `Git&Github_Final(LAB).html`: Standalone rendered HTML lab report.
-* `Git&Github_Final(LAB).pdf`: Publication-ready PDF lab report.
+## Key Features & Contributions
+* **GC & AT Content Calculation:** Evaluates nucleotide ratios to assess sequence thermal stability.
+* **Sequence Characterization:** Computes total base pair length.
+* **Molecular Operations:** Generates the antiparallel reverse complement strand.
+* **Functional Annotation:** Translates the DNA open reading frame into its corresponding amino acid sequence.
 
-## Dependencies
+## Repository Structure & Key Files
+* `Git&Github_Final(LAB).ipynb`: Main Jupyter Notebook containing all executable code, outputs, and conclusions.
+* `Git&Github_Final(LAB).html`: Rendered standalone HTML report.
+* `Git&Github_Final(LAB).pdf`: Publication-ready PDF report.
+
+## Dependencies & Requirements
 * Python 3.x
 * BioPython (`pip install biopython`)
-* Jupyter Notebook / nbconvert
+* Jupyter Notebook / `nbconvert`
 
 ## Usage & Execution
-To run the sequence analysis script locally:
+To run the sequence analysis pipeline locally:
 
 1. Clone this repository:
    ```bash
